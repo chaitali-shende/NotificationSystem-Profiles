@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Boot-Profile-NotificationSystem
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: INFO
+    org.springframework: OFF
+    
+  pattern:
+    console: "%msg%n"
