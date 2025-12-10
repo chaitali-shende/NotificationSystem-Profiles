@@ -36,6 +36,7 @@ Includes **Lombok**, **Jakarta Validation**, and **profile-specific service bean
 ## 📂 Project Structure
 
 Boot-Profile-NotificationSystem/
+
 ├── src
 
 │   ├── main
@@ -89,10 +90,15 @@ Boot-Profile-NotificationSystem/
        DEFAULT NOTIFICATION      
 
 ================================
+
 {
+
   "type" : "DEFAULT",
+  
   "recipient" : "Chaitali",
+  
   "message" : "Welcome to system!"
+
 }
 
 # Profile dev active:
@@ -102,10 +108,15 @@ Boot-Profile-NotificationSystem/
        NOTIFICATION RESULT      
 
 ================================
+
 {
+
   "type" : "EMAIL",
+  
   "recipient" : "Chaitali",
+  
   "message" : "Welcome to system!"
+
 }
 
 # Profile prod active:
@@ -115,10 +126,15 @@ Boot-Profile-NotificationSystem/
        NOTIFICATION RESULT      
 
 ================================
+
 {
+
   "type" : "Push",
+  
   "recipient" : "Chaitali",
+  
   "message" : "Welcome to system!"
+
 }
 
 # Profile test active:
@@ -128,10 +144,15 @@ Boot-Profile-NotificationSystem/
        NOTIFICATION RESULT      
 
 ================================
+
 {
+
   "type" : "SMS",
+  
   "recipient" : "Chaitali",
+  
   "message" : "Welcome to system!"
+
 }
 
 ---
